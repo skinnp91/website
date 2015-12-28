@@ -3,6 +3,7 @@
 @import 'settings';
 @import 'foundation';
 @import 'motion-ui';
+@import 'base';
 
 @include foundation-global-styles;
 @include foundation-grid;
@@ -42,3 +43,14 @@
 
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+
+aside .active {
+  background-color: $primary-color;
+  color: white;
+}
+
+#small-menu .active {
+  background-coolor: $primary-color;
+  color: white;
+}

@@ -8,42 +8,84 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   <body>
-    <div class="expanded row">
+    <div class="expanded row collapse">
       <div data-responsive-toggle="normal-menu" data-hide-for="medium">
         <ul class="menu" data-tabs id="small-menu">
-          <li><a href="#about">About</a></li>
+          <li><a class="active" href="#about">About</a></li>
           <li><a href="#resume">Resume</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#blog">Blog</a></li>
         </ul>
       </div>
-      <aside class="medium-3 large-2 columns" id="normal-menu">
-        <ul class="vertical menu" data-accordion-menu>
-          <li>
-            <a href="#">About</a>
-            <ul class="menu vertical nested" data-tabs id="about-tabs">
-              <li><a href="#whois">Who Am I?</a></li>
-              <li><a href="#interests">Interests</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#">Resume</a>
-            <ul class="menu vertical nested">
-              <li><a href="#res_summ">Summary</a></li>
-              <li><a href="#res_full">Full</a></li>
-              <li><a href="#res_down">Download</a></li>
-            </ul>
-          </li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#blog">Blog</a></li>
-        </ul>
+      <aside class="medium-3 large-2 columns" data-sticky-container id="normal-menu">
+        <nav class="columns" data-sticky data-anchor="main-nav" data-sticky-on="medium">
+          <ul class="vertical menu" data-magellan>
+            <li><h5>About</h5></li>
+            <li><a href="#whois">Who Am I?</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+            <li><h5>Resume</h5></li>
+            <li><a href="#res_summary">Summary</a></li>
+            <li><a href="#res_full">Full</a></li>
+            <li><a href="#res_download">Download</a></li>
+            
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+        </nav>
       </aside>
-      <article class="medium-9 columns">
-        <div class="tabs-content vertical" data-tabs-content="about-tabs">
-          <div class="tabs-panel" id="whois">
+      <article class="medium-9 large-10 columns">
+        <div class="sections">
+          <section id="whois" data-magellan-target="whois">
             <p>I AM GROOT</p>
-          </div>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            <p>I AM GROOT</p>
+            
+          </section>
+          <section id="interests" data-magellan-target="interests">
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+            <p>INTERESTED IN TREES</p>
+          </section>
         </div>
       </article>
     </div>
